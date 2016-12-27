@@ -1,0 +1,677 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8430445E1B0F822000A14966 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8430445D1B0F822000A14966 /* GoogleMobileAds.framework */; };
+		DA00E5FF1B008D9900B67AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00E5FE1B008D9900B67AD1 /* main.m */; };
+		DA00E6021B008D9900B67AD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00E6011B008D9900B67AD1 /* AppDelegate.m */; };
+		DA00E6051B008D9900B67AD1 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00E6041B008D9900B67AD1 /* GameViewController.m */; };
+		DA00E6081B008D9900B67AD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA00E6061B008D9900B67AD1 /* Main.storyboard */; };
+		DA00E60A1B008D9900B67AD1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA00E6091B008D9900B67AD1 /* Images.xcassets */; };
+		DA00E60D1B008D9900B67AD1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DA00E60B1B008D9900B67AD1 /* LaunchScreen.xib */; };
+		DA00E6191B008D9900B67AD1 /* KukuKubeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00E6181B008D9900B67AD1 /* KukuKubeTests.m */; };
+		DA00E6291B00B21300B67AD1 /* CollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00E6281B00B21300B67AD1 /* CollectionViewCell.m */; };
+		DA6A7A9F1B138D2C00839204 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA6A7A9E1B138D2C00839204 /* Social.framework */; };
+		DA7D75AB1B0DD60200A3FDA2 /* beep-shinymetal.aif in Resources */ = {isa = PBXBuildFile; fileRef = DA7D75A91B0DD60200A3FDA2 /* beep-shinymetal.aif */; };
+		DA7D75AC1B0DD60200A3FDA2 /* beep-xylo.aif in Resources */ = {isa = PBXBuildFile; fileRef = DA7D75AA1B0DD60200A3FDA2 /* beep-xylo.aif */; };
+		DA7D75AE1B0DD70A00A3FDA2 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DA7D75AD1B0DD70A00A3FDA2 /* AVFoundation.framework */; };
+		DAC0DA8D1B0AE52A00C9BE74 /* MainViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DA8C1B0AE52A00C9BE74 /* MainViewViewController.m */; };
+		DAC0DB2D1B0B3C0000C9BE74 /* URBNAlertAction.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB071B0B3C0000C9BE74 /* URBNAlertAction.m */; };
+		DAC0DB2E1B0B3C0000C9BE74 /* URBNAlertConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB091B0B3C0000C9BE74 /* URBNAlertConfig.m */; };
+		DAC0DB2F1B0B3C0000C9BE74 /* URBNAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB0B1B0B3C0000C9BE74 /* URBNAlertController.m */; };
+		DAC0DB301B0B3C0000C9BE74 /* URBNAlertStyle.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB0D1B0B3C0000C9BE74 /* URBNAlertStyle.m */; };
+		DAC0DB311B0B3C0000C9BE74 /* URBNAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB0F1B0B3C0000C9BE74 /* URBNAlertView.m */; };
+		DAC0DB321B0B3C0000C9BE74 /* URBNAlertViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB111B0B3C0000C9BE74 /* URBNAlertViewController.m */; };
+		DAC0DB331B0B3C0000C9BE74 /* NSDate+URBN.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB151B0B3C0000C9BE74 /* NSDate+URBN.m */; };
+		DAC0DB341B0B3C0000C9BE74 /* NSNotificationCenter+URBN.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB171B0B3C0000C9BE74 /* NSNotificationCenter+URBN.m */; };
+		DAC0DB351B0B3C0000C9BE74 /* NSString+URBN.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB191B0B3C0000C9BE74 /* NSString+URBN.m */; };
+		DAC0DB361B0B3C0000C9BE74 /* UIImage+ImageEffects.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB1B1B0B3C0000C9BE74 /* UIImage+ImageEffects.m */; };
+		DAC0DB371B0B3C0000C9BE74 /* UIImage+URBN.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB1D1B0B3C0000C9BE74 /* UIImage+URBN.m */; };
+		DAC0DB381B0B3C0000C9BE74 /* UITextField+URBNLoadingIndicator.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB1F1B0B3C0000C9BE74 /* UITextField+URBNLoadingIndicator.m */; };
+		DAC0DB391B0B3C0000C9BE74 /* UIView+URBNAnimations.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB211B0B3C0000C9BE74 /* UIView+URBNAnimations.m */; };
+		DAC0DB3A1B0B3C0000C9BE74 /* UIView+URBNBorders.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB231B0B3C0000C9BE74 /* UIView+URBNBorders.m */; };
+		DAC0DB3B1B0B3C0000C9BE74 /* UIView+URBNLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB251B0B3C0000C9BE74 /* UIView+URBNLayout.m */; };
+		DAC0DB3C1B0B3C0000C9BE74 /* URBNConvenience.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB271B0B3C0000C9BE74 /* URBNConvenience.m */; };
+		DAC0DB3D1B0B3C0000C9BE74 /* URBNFunctions.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB291B0B3C0000C9BE74 /* URBNFunctions.m */; };
+		DAC0DB3E1B0B3C0000C9BE74 /* URBNTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = DAC0DB2C1B0B3C0000C9BE74 /* URBNTextField.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DA00E6131B008D9900B67AD1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DA00E5F11B008D9900B67AD1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DA00E5F81B008D9900B67AD1;
+			remoteInfo = KukuKube;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8430445D1B0F822000A14966 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
+		DA00E5F91B008D9900B67AD1 /* 3Kube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3Kube.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA00E5FD1B008D9900B67AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA00E5FE1B008D9900B67AD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DA00E6001B008D9900B67AD1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DA00E6011B008D9900B67AD1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DA00E6031B008D9900B67AD1 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		DA00E6041B008D9900B67AD1 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		DA00E6071B008D9900B67AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DA00E6091B008D9900B67AD1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DA00E60C1B008D9900B67AD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DA00E6121B008D9900B67AD1 /* KukuKubeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KukuKubeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DA00E6171B008D9900B67AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA00E6181B008D9900B67AD1 /* KukuKubeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KukuKubeTests.m; sourceTree = "<group>"; };
+		DA00E6271B00B21300B67AD1 /* CollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CollectionViewCell.h; sourceTree = "<group>"; };
+		DA00E6281B00B21300B67AD1 /* CollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CollectionViewCell.m; sourceTree = "<group>"; };
+		DA6A7A9E1B138D2C00839204 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
+		DA7D75A91B0DD60200A3FDA2 /* beep-shinymetal.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "beep-shinymetal.aif"; sourceTree = "<group>"; };
+		DA7D75AA1B0DD60200A3FDA2 /* beep-xylo.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = "beep-xylo.aif"; sourceTree = "<group>"; };
+		DA7D75AD1B0DD70A00A3FDA2 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		DAC0DA8B1B0AE52A00C9BE74 /* MainViewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainViewViewController.h; sourceTree = "<group>"; };
+		DAC0DA8C1B0AE52A00C9BE74 /* MainViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainViewViewController.m; sourceTree = "<group>"; };
+		DAC0DB051B0B3C0000C9BE74 /* URBNAlert.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNAlert.h; sourceTree = "<group>"; };
+		DAC0DB061B0B3C0000C9BE74 /* URBNAlertAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNAlertAction.h; sourceTree = "<group>"; };
+		DAC0DB071B0B3C0000C9BE74 /* URBNAlertAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNAlertAction.m; sourceTree = "<group>"; };
+		DAC0DB081B0B3C0000C9BE74 /* URBNAlertConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNAlertConfig.h; sourceTree = "<group>"; };
+		DAC0DB091B0B3C0000C9BE74 /* URBNAlertConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNAlertConfig.m; sourceTree = "<group>"; };
+		DAC0DB0A1B0B3C0000C9BE74 /* URBNAlertController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNAlertController.h; sourceTree = "<group>"; };
+		DAC0DB0B1B0B3C0000C9BE74 /* URBNAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNAlertController.m; sourceTree = "<group>"; };
+		DAC0DB0C1B0B3C0000C9BE74 /* URBNAlertStyle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNAlertStyle.h; sourceTree = "<group>"; };
+		DAC0DB0D1B0B3C0000C9BE74 /* URBNAlertStyle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNAlertStyle.m; sourceTree = "<group>"; };
+		DAC0DB0E1B0B3C0000C9BE74 /* URBNAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNAlertView.h; sourceTree = "<group>"; };
+		DAC0DB0F1B0B3C0000C9BE74 /* URBNAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNAlertView.m; sourceTree = "<group>"; };
+		DAC0DB101B0B3C0000C9BE74 /* URBNAlertViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNAlertViewController.h; sourceTree = "<group>"; };
+		DAC0DB111B0B3C0000C9BE74 /* URBNAlertViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNAlertViewController.m; sourceTree = "<group>"; };
+		DAC0DB141B0B3C0000C9BE74 /* NSDate+URBN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+URBN.h"; sourceTree = "<group>"; };
+		DAC0DB151B0B3C0000C9BE74 /* NSDate+URBN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+URBN.m"; sourceTree = "<group>"; };
+		DAC0DB161B0B3C0000C9BE74 /* NSNotificationCenter+URBN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+URBN.h"; sourceTree = "<group>"; };
+		DAC0DB171B0B3C0000C9BE74 /* NSNotificationCenter+URBN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+URBN.m"; sourceTree = "<group>"; };
+		DAC0DB181B0B3C0000C9BE74 /* NSString+URBN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+URBN.h"; sourceTree = "<group>"; };
+		DAC0DB191B0B3C0000C9BE74 /* NSString+URBN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+URBN.m"; sourceTree = "<group>"; };
+		DAC0DB1A1B0B3C0000C9BE74 /* UIImage+ImageEffects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageEffects.h"; sourceTree = "<group>"; };
+		DAC0DB1B1B0B3C0000C9BE74 /* UIImage+ImageEffects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageEffects.m"; sourceTree = "<group>"; };
+		DAC0DB1C1B0B3C0000C9BE74 /* UIImage+URBN.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+URBN.h"; sourceTree = "<group>"; };
+		DAC0DB1D1B0B3C0000C9BE74 /* UIImage+URBN.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+URBN.m"; sourceTree = "<group>"; };
+		DAC0DB1E1B0B3C0000C9BE74 /* UITextField+URBNLoadingIndicator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UITextField+URBNLoadingIndicator.h"; sourceTree = "<group>"; };
+		DAC0DB1F1B0B3C0000C9BE74 /* UITextField+URBNLoadingIndicator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UITextField+URBNLoadingIndicator.m"; sourceTree = "<group>"; };
+		DAC0DB201B0B3C0000C9BE74 /* UIView+URBNAnimations.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+URBNAnimations.h"; sourceTree = "<group>"; };
+		DAC0DB211B0B3C0000C9BE74 /* UIView+URBNAnimations.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+URBNAnimations.m"; sourceTree = "<group>"; };
+		DAC0DB221B0B3C0000C9BE74 /* UIView+URBNBorders.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+URBNBorders.h"; sourceTree = "<group>"; };
+		DAC0DB231B0B3C0000C9BE74 /* UIView+URBNBorders.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+URBNBorders.m"; sourceTree = "<group>"; };
+		DAC0DB241B0B3C0000C9BE74 /* UIView+URBNLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+URBNLayout.h"; sourceTree = "<group>"; };
+		DAC0DB251B0B3C0000C9BE74 /* UIView+URBNLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+URBNLayout.m"; sourceTree = "<group>"; };
+		DAC0DB261B0B3C0000C9BE74 /* URBNConvenience.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNConvenience.h; sourceTree = "<group>"; };
+		DAC0DB271B0B3C0000C9BE74 /* URBNConvenience.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNConvenience.m; sourceTree = "<group>"; };
+		DAC0DB281B0B3C0000C9BE74 /* URBNFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNFunctions.h; sourceTree = "<group>"; };
+		DAC0DB291B0B3C0000C9BE74 /* URBNFunctions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNFunctions.m; sourceTree = "<group>"; };
+		DAC0DB2A1B0B3C0000C9BE74 /* URBNMacros.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNMacros.h; sourceTree = "<group>"; };
+		DAC0DB2B1B0B3C0000C9BE74 /* URBNTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = URBNTextField.h; sourceTree = "<group>"; };
+		DAC0DB2C1B0B3C0000C9BE74 /* URBNTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = URBNTextField.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DA00E5F61B008D9900B67AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA6A7A9F1B138D2C00839204 /* Social.framework in Frameworks */,
+				8430445E1B0F822000A14966 /* GoogleMobileAds.framework in Frameworks */,
+				DA7D75AE1B0DD70A00A3FDA2 /* AVFoundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA00E60F1B008D9900B67AD1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DA00E5F01B008D9900B67AD1 = {
+			isa = PBXGroup;
+			children = (
+				DA00E5FB1B008D9900B67AD1 /* KukuKube */,
+				DAC0DB011B0B3C0000C9BE74 /* Resources */,
+				DAA17D881B04AD34003DC68F /* Frameworks */,
+				DA00E6151B008D9900B67AD1 /* KukuKubeTests */,
+				DA00E5FA1B008D9900B67AD1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DA00E5FA1B008D9900B67AD1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DA00E5F91B008D9900B67AD1 /* 3Kube.app */,
+				DA00E6121B008D9900B67AD1 /* KukuKubeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DA00E5FB1B008D9900B67AD1 /* KukuKube */ = {
+			isa = PBXGroup;
+			children = (
+				DA918F4B1B01925E00495104 /* App Delegate */,
+				DA00E6061B008D9900B67AD1 /* Main.storyboard */,
+				DAC0DA8B1B0AE52A00C9BE74 /* MainViewViewController.h */,
+				DAC0DA8C1B0AE52A00C9BE74 /* MainViewViewController.m */,
+				DA00E6031B008D9900B67AD1 /* GameViewController.h */,
+				DA00E6041B008D9900B67AD1 /* GameViewController.m */,
+				DA00E6271B00B21300B67AD1 /* CollectionViewCell.h */,
+				DA00E6281B00B21300B67AD1 /* CollectionViewCell.m */,
+				DA00E5FC1B008D9900B67AD1 /* Supporting Files */,
+			);
+			path = KukuKube;
+			sourceTree = "<group>";
+		};
+		DA00E5FC1B008D9900B67AD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA00E6091B008D9900B67AD1 /* Images.xcassets */,
+				DA00E60B1B008D9900B67AD1 /* LaunchScreen.xib */,
+				DA00E5FD1B008D9900B67AD1 /* Info.plist */,
+				DA00E5FE1B008D9900B67AD1 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA00E6151B008D9900B67AD1 /* KukuKubeTests */ = {
+			isa = PBXGroup;
+			children = (
+				DA00E6181B008D9900B67AD1 /* KukuKubeTests.m */,
+				DA00E6161B008D9900B67AD1 /* Supporting Files */,
+			);
+			path = KukuKubeTests;
+			sourceTree = "<group>";
+		};
+		DA00E6161B008D9900B67AD1 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA00E6171B008D9900B67AD1 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DA7D75A81B0DD5DC00A3FDA2 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				DA7D75A91B0DD60200A3FDA2 /* beep-shinymetal.aif */,
+				DA7D75AA1B0DD60200A3FDA2 /* beep-xylo.aif */,
+			);
+			path = Sound;
+			sourceTree = "<group>";
+		};
+		DA918F4B1B01925E00495104 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				DA00E6001B008D9900B67AD1 /* AppDelegate.h */,
+				DA00E6011B008D9900B67AD1 /* AppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		DAA17D881B04AD34003DC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DA6A7A9E1B138D2C00839204 /* Social.framework */,
+				8430445D1B0F822000A14966 /* GoogleMobileAds.framework */,
+				DA7D75AD1B0DD70A00A3FDA2 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DAC0DB011B0B3C0000C9BE74 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				DA7D75A81B0DD5DC00A3FDA2 /* Sound */,
+				DAC0DB021B0B3C0000C9BE74 /* Library */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DAC0DB021B0B3C0000C9BE74 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DB031B0B3C0000C9BE74 /* URBNAlert */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		DAC0DB031B0B3C0000C9BE74 /* URBNAlert */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DB041B0B3C0000C9BE74 /* Classes */,
+				DAC0DB121B0B3C0000C9BE74 /* URBNConvenience */,
+			);
+			path = URBNAlert;
+			sourceTree = "<group>";
+		};
+		DAC0DB041B0B3C0000C9BE74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DB051B0B3C0000C9BE74 /* URBNAlert.h */,
+				DAC0DB061B0B3C0000C9BE74 /* URBNAlertAction.h */,
+				DAC0DB071B0B3C0000C9BE74 /* URBNAlertAction.m */,
+				DAC0DB081B0B3C0000C9BE74 /* URBNAlertConfig.h */,
+				DAC0DB091B0B3C0000C9BE74 /* URBNAlertConfig.m */,
+				DAC0DB0A1B0B3C0000C9BE74 /* URBNAlertController.h */,
+				DAC0DB0B1B0B3C0000C9BE74 /* URBNAlertController.m */,
+				DAC0DB0C1B0B3C0000C9BE74 /* URBNAlertStyle.h */,
+				DAC0DB0D1B0B3C0000C9BE74 /* URBNAlertStyle.m */,
+				DAC0DB0E1B0B3C0000C9BE74 /* URBNAlertView.h */,
+				DAC0DB0F1B0B3C0000C9BE74 /* URBNAlertView.m */,
+				DAC0DB101B0B3C0000C9BE74 /* URBNAlertViewController.h */,
+				DAC0DB111B0B3C0000C9BE74 /* URBNAlertViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		DAC0DB121B0B3C0000C9BE74 /* URBNConvenience */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DB131B0B3C0000C9BE74 /* Classes */,
+			);
+			path = URBNConvenience;
+			sourceTree = "<group>";
+		};
+		DAC0DB131B0B3C0000C9BE74 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				DAC0DB141B0B3C0000C9BE74 /* NSDate+URBN.h */,
+				DAC0DB151B0B3C0000C9BE74 /* NSDate+URBN.m */,
+				DAC0DB161B0B3C0000C9BE74 /* NSNotificationCenter+URBN.h */,
+				DAC0DB171B0B3C0000C9BE74 /* NSNotificationCenter+URBN.m */,
+				DAC0DB181B0B3C0000C9BE74 /* NSString+URBN.h */,
+				DAC0DB191B0B3C0000C9BE74 /* NSString+URBN.m */,
+				DAC0DB1A1B0B3C0000C9BE74 /* UIImage+ImageEffects.h */,
+				DAC0DB1B1B0B3C0000C9BE74 /* UIImage+ImageEffects.m */,
+				DAC0DB1C1B0B3C0000C9BE74 /* UIImage+URBN.h */,
+				DAC0DB1D1B0B3C0000C9BE74 /* UIImage+URBN.m */,
+				DAC0DB1E1B0B3C0000C9BE74 /* UITextField+URBNLoadingIndicator.h */,
+				DAC0DB1F1B0B3C0000C9BE74 /* UITextField+URBNLoadingIndicator.m */,
+				DAC0DB201B0B3C0000C9BE74 /* UIView+URBNAnimations.h */,
+				DAC0DB211B0B3C0000C9BE74 /* UIView+URBNAnimations.m */,
+				DAC0DB221B0B3C0000C9BE74 /* UIView+URBNBorders.h */,
+				DAC0DB231B0B3C0000C9BE74 /* UIView+URBNBorders.m */,
+				DAC0DB241B0B3C0000C9BE74 /* UIView+URBNLayout.h */,
+				DAC0DB251B0B3C0000C9BE74 /* UIView+URBNLayout.m */,
+				DAC0DB261B0B3C0000C9BE74 /* URBNConvenience.h */,
+				DAC0DB271B0B3C0000C9BE74 /* URBNConvenience.m */,
+				DAC0DB281B0B3C0000C9BE74 /* URBNFunctions.h */,
+				DAC0DB291B0B3C0000C9BE74 /* URBNFunctions.m */,
+				DAC0DB2A1B0B3C0000C9BE74 /* URBNMacros.h */,
+				DAC0DB2B1B0B3C0000C9BE74 /* URBNTextField.h */,
+				DAC0DB2C1B0B3C0000C9BE74 /* URBNTextField.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DA00E5F81B008D9900B67AD1 /* 3Kube */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA00E61C1B008D9900B67AD1 /* Build configuration list for PBXNativeTarget "3Kube" */;
+			buildPhases = (
+				DA00E5F51B008D9900B67AD1 /* Sources */,
+				DA00E5F61B008D9900B67AD1 /* Frameworks */,
+				DA00E5F71B008D9900B67AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = 3Kube;
+			productName = KukuKube;
+			productReference = DA00E5F91B008D9900B67AD1 /* 3Kube.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DA00E6111B008D9900B67AD1 /* KukuKubeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DA00E61F1B008D9900B67AD1 /* Build configuration list for PBXNativeTarget "KukuKubeTests" */;
+			buildPhases = (
+				DA00E60E1B008D9900B67AD1 /* Sources */,
+				DA00E60F1B008D9900B67AD1 /* Frameworks */,
+				DA00E6101B008D9900B67AD1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DA00E6141B008D9900B67AD1 /* PBXTargetDependency */,
+			);
+			name = KukuKubeTests;
+			productName = KukuKubeTests;
+			productReference = DA00E6121B008D9900B67AD1 /* KukuKubeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DA00E5F11B008D9900B67AD1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Huynh Tri Dung";
+				TargetAttributes = {
+					DA00E5F81B008D9900B67AD1 = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = JQNK74493B;
+						ProvisioningStyle = Automatic;
+					};
+					DA00E6111B008D9900B67AD1 = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = DA00E5F81B008D9900B67AD1;
+					};
+				};
+			};
+			buildConfigurationList = DA00E5F41B008D9900B67AD1 /* Build configuration list for PBXProject "KukuKube" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DA00E5F01B008D9900B67AD1;
+			productRefGroup = DA00E5FA1B008D9900B67AD1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DA00E5F81B008D9900B67AD1 /* 3Kube */,
+				DA00E6111B008D9900B67AD1 /* KukuKubeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DA00E5F71B008D9900B67AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA7D75AB1B0DD60200A3FDA2 /* beep-shinymetal.aif in Resources */,
+				DA00E6081B008D9900B67AD1 /* Main.storyboard in Resources */,
+				DA00E60D1B008D9900B67AD1 /* LaunchScreen.xib in Resources */,
+				DA00E60A1B008D9900B67AD1 /* Images.xcassets in Resources */,
+				DA7D75AC1B0DD60200A3FDA2 /* beep-xylo.aif in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA00E6101B008D9900B67AD1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DA00E5F51B008D9900B67AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DAC0DB3A1B0B3C0000C9BE74 /* UIView+URBNBorders.m in Sources */,
+				DAC0DB311B0B3C0000C9BE74 /* URBNAlertView.m in Sources */,
+				DA00E6051B008D9900B67AD1 /* GameViewController.m in Sources */,
+				DAC0DB2D1B0B3C0000C9BE74 /* URBNAlertAction.m in Sources */,
+				DAC0DB3D1B0B3C0000C9BE74 /* URBNFunctions.m in Sources */,
+				DA00E6021B008D9900B67AD1 /* AppDelegate.m in Sources */,
+				DAC0DB3E1B0B3C0000C9BE74 /* URBNTextField.m in Sources */,
+				DAC0DB2F1B0B3C0000C9BE74 /* URBNAlertController.m in Sources */,
+				DAC0DB331B0B3C0000C9BE74 /* NSDate+URBN.m in Sources */,
+				DAC0DB351B0B3C0000C9BE74 /* NSString+URBN.m in Sources */,
+				DAC0DB2E1B0B3C0000C9BE74 /* URBNAlertConfig.m in Sources */,
+				DAC0DB391B0B3C0000C9BE74 /* UIView+URBNAnimations.m in Sources */,
+				DAC0DB341B0B3C0000C9BE74 /* NSNotificationCenter+URBN.m in Sources */,
+				DAC0DB321B0B3C0000C9BE74 /* URBNAlertViewController.m in Sources */,
+				DA00E6291B00B21300B67AD1 /* CollectionViewCell.m in Sources */,
+				DAC0DB361B0B3C0000C9BE74 /* UIImage+ImageEffects.m in Sources */,
+				DAC0DB371B0B3C0000C9BE74 /* UIImage+URBN.m in Sources */,
+				DAC0DB3B1B0B3C0000C9BE74 /* UIView+URBNLayout.m in Sources */,
+				DA00E5FF1B008D9900B67AD1 /* main.m in Sources */,
+				DAC0DB3C1B0B3C0000C9BE74 /* URBNConvenience.m in Sources */,
+				DAC0DB381B0B3C0000C9BE74 /* UITextField+URBNLoadingIndicator.m in Sources */,
+				DAC0DB301B0B3C0000C9BE74 /* URBNAlertStyle.m in Sources */,
+				DAC0DA8D1B0AE52A00C9BE74 /* MainViewViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DA00E60E1B008D9900B67AD1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DA00E6191B008D9900B67AD1 /* KukuKubeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DA00E6141B008D9900B67AD1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DA00E5F81B008D9900B67AD1 /* 3Kube */;
+			targetProxy = DA00E6131B008D9900B67AD1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DA00E6061B008D9900B67AD1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA00E6071B008D9900B67AD1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DA00E60B1B008D9900B67AD1 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DA00E60C1B008D9900B67AD1 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DA00E61A1B008D9900B67AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DA00E61B1B008D9900B67AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DA00E61D1B008D9900B67AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JQNK74493B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = KukuKube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		DA00E61E1B008D9900B67AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = JQNK74493B;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = KukuKube/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		DA00E6201B008D9900B67AD1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KukuKubeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KukuKube.app/KukuKube";
+			};
+			name = Debug;
+		};
+		DA00E6211B008D9900B67AD1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = KukuKubeTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/KukuKube.app/KukuKube";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DA00E5F41B008D9900B67AD1 /* Build configuration list for PBXProject "KukuKube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA00E61A1B008D9900B67AD1 /* Debug */,
+				DA00E61B1B008D9900B67AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA00E61C1B008D9900B67AD1 /* Build configuration list for PBXNativeTarget "3Kube" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA00E61D1B008D9900B67AD1 /* Debug */,
+				DA00E61E1B008D9900B67AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA00E61F1B008D9900B67AD1 /* Build configuration list for PBXNativeTarget "KukuKubeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DA00E6201B008D9900B67AD1 /* Debug */,
+				DA00E6211B008D9900B67AD1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DA00E5F11B008D9900B67AD1 /* Project object */;
+}
