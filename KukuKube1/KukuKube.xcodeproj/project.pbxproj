@@ -22,7 +22,6 @@
 		C8291E051A20B48C00D4A548 /* beep2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C8291E041A20B48C00D4A548 /* beep2.wav */; };
 		C8302B711A7014BA00F05A9E /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8302B701A7014BA00F05A9E /* StoreKit.framework */; };
 		C83630B41A29AC1E00E99660 /* beep6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C83630B21A29AC1E00E99660 /* beep6.mp3 */; };
-		C83F37111A77D04E008D0D54 /* iAd.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C83F37101A77D04E008D0D54 /* iAd.framework */; };
 		C85797201AD0FFBE00DD00A0 /* SettingsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = C857971F1AD0FFBE00DD00A0 /* SettingsTableViewCell.m */; };
 		C86400F21ADA47B50007A6E6 /* CustomIOSAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = C86400F11ADA47B50007A6E6 /* CustomIOSAlertView.m */; };
 		C88089A51A7210E800BE14C3 /* Music2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C88089A01A7210E800BE14C3 /* Music2.mp3 */; };
@@ -66,7 +65,6 @@
 		C8291E041A20B48C00D4A548 /* beep2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = beep2.wav; sourceTree = "<group>"; };
 		C8302B701A7014BA00F05A9E /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 		C83630B21A29AC1E00E99660 /* beep6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = beep6.mp3; sourceTree = "<group>"; };
-		C83F37101A77D04E008D0D54 /* iAd.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = iAd.framework; path = System/Library/Frameworks/iAd.framework; sourceTree = SDKROOT; };
 		C857971E1AD0FFBE00DD00A0 /* SettingsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SettingsTableViewCell.h; sourceTree = "<group>"; };
 		C857971F1AD0FFBE00DD00A0 /* SettingsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SettingsTableViewCell.m; sourceTree = "<group>"; };
 		C86400F01ADA47B50007A6E6 /* CustomIOSAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomIOSAlertView.h; sourceTree = "<group>"; };
@@ -84,7 +82,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C83F37111A77D04E008D0D54 /* iAd.framework in Frameworks */,
 				C8302B711A7014BA00F05A9E /* StoreKit.framework in Frameworks */,
 				C8CEE0641A3C696F00BCDE9B /* GameKit.framework in Frameworks */,
 			);
@@ -103,7 +100,6 @@
 		C80DD4171A1238CF00C4CAFE = {
 			isa = PBXGroup;
 			children = (
-				C83F37101A77D04E008D0D54 /* iAd.framework */,
 				C8302B701A7014BA00F05A9E /* StoreKit.framework */,
 				C8CEE0631A3C696F00BCDE9B /* GameKit.framework */,
 				C80DD4221A1238CF00C4CAFE /* KukuKube */,
@@ -436,7 +432,7 @@
 				INFOPLIST_FILE = KukuKube/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.kukukube1.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -454,7 +450,7 @@
 				INFOPLIST_FILE = KukuKube/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio;
+				PRODUCT_BUNDLE_IDENTIFIER = com.twokingstudio.kukukube1.100;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 				TARGETED_DEVICE_FAMILY = "1,2";

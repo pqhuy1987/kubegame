@@ -465,7 +465,7 @@ typedef enum
 
 - (IBAction)rateAppClicked:(id)sender {
 //    [[UIApplication sharedApplication]openURL:[NSURL URLWithString:@"itms-apps://itunes.apple.com/app/id944673793"]];
-    UIAlertView *creditAlert = [[UIAlertView alloc]initWithTitle:@"Credits" message:@"Kuku Kube Game is designed, engineered and developed by A-One Mobility Solutions. All music rights belong to www.bensound.com. If you like this game, please put a review in AppStore" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Rate App",@"Visit Bensound",nil];
+    UIAlertView *creditAlert = [[UIAlertView alloc]initWithTitle:@"Credits" message:@"Kuku Kube Game is designed, engineered and developed by TwoKingStudio. All music rights belong to www.bensound.com. If you like this game, please put a review in AppStore" delegate:self cancelButtonTitle:@"Cancel" otherButtonTitles:@"Rate App",@"Visit Bensound",nil];
     creditAlert.tag = 8000;
     [creditAlert show];
     
@@ -726,7 +726,7 @@ typedef enum
     else if (tableView == self.playTableView)
         return 4;
     else
-        return 5;
+        return 3;
 }
 
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
@@ -846,11 +846,11 @@ typedef enum
                 cell.settingName.text = @"leaderboard";
                 cell.settingName.textColor = [UIColor magentaColor];
                 break;
+//            case 2:
+//                cell.settingName.text = @"rate game";
+//                cell.settingName.textColor = [UIColor blueColor];
+//                break;
             case 2:
-                cell.settingName.text = @"rate game";
-                cell.settingName.textColor = [UIColor blueColor];
-                break;
-            case 3:
                 cell.delegate = self;
                 cell.settingName.text = @"show help";
                 cell.themeName.hidden = YES;
@@ -867,10 +867,10 @@ typedef enum
                 cell.themeName.textColor = [UIColor purpleColor];
 
                 break;
-            case 4:
-                cell.settingName.text = @"about";
-                cell.settingName.textColor = [UIColor orangeColor];
-                break;
+//            case 3:
+//                cell.settingName.text = @"about";
+//                cell.settingName.textColor = [UIColor orangeColor];
+//                break;
             default:
                 break;
         }
