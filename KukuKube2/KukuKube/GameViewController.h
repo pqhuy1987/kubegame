@@ -7,11 +7,9 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <GoogleMobileAds/GoogleMobileAds.h>
 
 
 @interface GameViewController : UIViewController
-@property (strong, nonatomic) IBOutlet GADBannerView *bannerView;
 
 @property (strong, nonatomic) IBOutlet UICollectionView *myCollectionView;
 

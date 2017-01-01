@@ -57,15 +57,6 @@
     [flowLayout setScrollDirection:UICollectionViewScrollDirectionVertical];
     [self.myCollectionView setCollectionViewLayout:flowLayout];
     
-    NSLog(@"Google Mobile Ads SDK version: %@", [GADRequest sdkVersion]);
-    self.bannerView.adUnitID = @"ca-app-pub-8525908052820488/6472267457";
-    self.bannerView.rootViewController = self;
-    GADRequest *request = [GADRequest request];
-    // Requests test ads on devices you specify. Your test device ID is printed to the console when
-    // an ad request is made. GADBannerView automatically returns test ads when running on a
-    // simulator.
-    request.testDevices = @[kGADSimulatorID];
-    [self.bannerView loadRequest:request];
 
     NSString *soundCorrect = [NSString stringWithFormat:@"%@/beep-xylo.aif", [[NSBundle mainBundle] resourcePath]];
     NSString *soundFail = [NSString stringWithFormat:@"%@/beep-shinymetal.aif", [[NSBundle mainBundle] resourcePath]];

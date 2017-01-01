@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8430445E1B0F822000A14966 /* GoogleMobileAds.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8430445D1B0F822000A14966 /* GoogleMobileAds.framework */; };
 		DA00E5FF1B008D9900B67AD1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00E5FE1B008D9900B67AD1 /* main.m */; };
 		DA00E6021B008D9900B67AD1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00E6011B008D9900B67AD1 /* AppDelegate.m */; };
 		DA00E6051B008D9900B67AD1 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA00E6041B008D9900B67AD1 /* GameViewController.m */; };
@@ -52,7 +51,6 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		8430445D1B0F822000A14966 /* GoogleMobileAds.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMobileAds.framework; sourceTree = "<group>"; };
 		DA00E5F91B008D9900B67AD1 /* 3Kube.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3Kube.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DA00E5FD1B008D9900B67AD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA00E5FE1B008D9900B67AD1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -120,7 +118,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				DA6A7A9F1B138D2C00839204 /* Social.framework in Frameworks */,
-				8430445E1B0F822000A14966 /* GoogleMobileAds.framework in Frameworks */,
 				DA7D75AE1B0DD70A00A3FDA2 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -221,7 +218,6 @@
 			isa = PBXGroup;
 			children = (
 				DA6A7A9E1B138D2C00839204 /* Social.framework */,
-				8430445D1B0F822000A14966 /* GoogleMobileAds.framework */,
 				DA7D75AD1B0DD70A00A3FDA2 /* AVFoundation.framework */,
 			);
 			name = Frameworks;
