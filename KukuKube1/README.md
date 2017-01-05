@@ -1,2 +1,2 @@
-# KukuKube
-Source code for Kuku Kube Shade Spotter game.
+# ShadeSpotter
+Shade spotter game.

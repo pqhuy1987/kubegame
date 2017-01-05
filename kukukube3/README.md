@@ -1,2 +1,0 @@
-# ShadeSpotter
-Shade spotter game.
